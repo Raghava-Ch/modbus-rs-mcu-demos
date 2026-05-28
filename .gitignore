@@ -19,6 +19,8 @@
 # Libraries
 *.lib
 *.a
+# Explicitly track the ModBus FFI static library
+!stm32_modbus_rtu_server_yaml/CM7/modbus_server/lib/libmbus_ffi.a
 *.la
 *.lo
 
