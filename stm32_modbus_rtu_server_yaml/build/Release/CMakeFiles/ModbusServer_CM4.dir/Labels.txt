@@ -1,0 +1,13 @@
+# Target labels
+ ModbusServer_CM4
+# Source files and their labels
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CMakeFiles/ModbusServer_CM4
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CMakeFiles/ModbusServer_CM4.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CMakeFiles/ModbusServer_CM4-complete.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-build.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-configure.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-download.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-install.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-mkdir.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-patch.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Release/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-update.rule

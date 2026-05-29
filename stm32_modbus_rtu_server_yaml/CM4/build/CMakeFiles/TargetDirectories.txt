@@ -1,0 +1,4 @@
+/Volumes/Work/ModBus/stm32/ModbusServer/CM4/build/CMakeFiles/ModbusServer_CM4.dir
+/Volumes/Work/ModBus/stm32/ModbusServer/CM4/build/CMakeFiles/STM32_Drivers.dir
+/Volumes/Work/ModBus/stm32/ModbusServer/CM4/build/CMakeFiles/edit_cache.dir
+/Volumes/Work/ModBus/stm32/ModbusServer/CM4/build/CMakeFiles/rebuild_cache.dir

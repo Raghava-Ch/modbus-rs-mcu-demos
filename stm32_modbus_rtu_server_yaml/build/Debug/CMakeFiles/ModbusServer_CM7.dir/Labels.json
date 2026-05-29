@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM7"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM7.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM7-complete.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-build.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-configure.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-download.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-install.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-mkdir.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-patch.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ModbusServer_CM7"
+		],
+		"name" : "ModbusServer_CM7"
+	}
+}

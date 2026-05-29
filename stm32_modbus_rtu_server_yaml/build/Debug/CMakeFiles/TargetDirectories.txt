@@ -1,0 +1,4 @@
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM4.dir
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM7.dir
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/edit_cache.dir
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/rebuild_cache.dir

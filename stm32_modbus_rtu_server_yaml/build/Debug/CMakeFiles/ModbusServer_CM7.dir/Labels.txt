@@ -1,0 +1,13 @@
+# Target labels
+ ModbusServer_CM7
+# Source files and their labels
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM7
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM7.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM7-complete.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-build.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-configure.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-download.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-install.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-mkdir.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-patch.rule
+/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM7/src/ModbusServer_CM7-stamp/ModbusServer_CM7-update.rule

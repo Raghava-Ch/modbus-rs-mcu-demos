@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Volumes/Work/ModBus/stm32/ModbusServer/CM7/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

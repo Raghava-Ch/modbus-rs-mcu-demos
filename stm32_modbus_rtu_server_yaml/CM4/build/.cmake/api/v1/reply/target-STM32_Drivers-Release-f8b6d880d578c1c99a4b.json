@@ -1,0 +1,412 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/STM32_Drivers.dir/./Volumes/Work/ModBus/stm32/ModbusServer/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_link_libraries",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"mx-generated.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -fdata-sections -ffunction-sections -Os -g0 -std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "CORE_CM4"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32H755xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_NUCLEO_64"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_PWR_DIRECT_SMPS_SUPPLY"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/CM4/Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/CM4/../Drivers/STM32H7xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/CM4/../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/CM4/../Drivers/BSP/STM32H7xx_Nucleo"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/CM4/../Drivers/CMSIS/Device/ST/STM32H7xx/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/CM4/../Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		}
+	],
+	"id" : "STM32_Drivers::@6890427a1f51a3e7e1df",
+	"name" : "STM32_Drivers",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/Work/ModBus/stm32/ModbusServer/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
