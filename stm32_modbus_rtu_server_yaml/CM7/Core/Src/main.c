@@ -67,7 +67,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+extern int modbus_init(void);
+extern void modbus_task(void);
 /* USER CODE END 0 */
 
 /**
@@ -78,7 +79,6 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
   /* USER CODE END 1 */
 /* USER CODE BEGIN Boot_Mode_Sequence_0 */
 #if defined(DUAL_CORE_BOOT_SYNC_SEQUENCE)
@@ -89,12 +89,12 @@ int main(void)
 /* USER CODE BEGIN Boot_Mode_Sequence_1 */
 #if defined(DUAL_CORE_BOOT_SYNC_SEQUENCE)
   /* Wait until CPU2 boots and enters in stop mode or timeout*/
-  // timeout = 0xFFFF;
-  // while((__HAL_RCC_GET_FLAG(RCC_FLAG_D2CKRDY) != RESET) && (timeout-- > 0));
-  // if ( timeout < 0 )
-  // {
-  // Error_Handler();
-  // }
+  timeout = 0xFFFF;
+  while((__HAL_RCC_GET_FLAG(RCC_FLAG_D2CKRDY) != RESET) && (timeout-- > 0));
+  if ( timeout < 0 )
+  {
+  Error_Handler();
+  }
 #endif /* DUAL_CORE_BOOT_SYNC_SEQUENCE */
 /* USER CODE END Boot_Mode_Sequence_1 */
   /* MCU Configuration--------------------------------------------------------*/
@@ -136,7 +136,10 @@ Error_Handler();
   MX_GPIO_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
+	if (modbus_init() != 0) {
 
+		Error_Handler();
+	}
   /* USER CODE END 2 */
 
   /* Initialize leds */
@@ -146,21 +149,11 @@ Error_Handler();
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  extern int modbus_init(void);
-  extern void modbus_task(void);
-
-  if (modbus_init() != 0) {
-        /* Handle initialization error */
-        Error_Handler();
-  }
-
   while (1)
   {
-    /* Execute the cyclic Modbus task */
-    modbus_task();
 
     /* USER CODE END WHILE */
-
+//	  modbus_task();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

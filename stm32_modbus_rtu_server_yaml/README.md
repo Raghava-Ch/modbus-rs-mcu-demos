@@ -68,13 +68,11 @@ Value `0` means no blinking (LEDs will be static based on coil states). Non-zero
 ```
 
 ## Prerequisites & Development Environment
-To build, debug, and modify this project, it is **highly recommended to use the STM32 development environment within Visual Studio Code**.
+To build, debug, and modify this project, it is **highly recommended to use the STM32 development environment**.
 
 You will need:
-1. **Visual Studio Code**
-2. **STM32 VS Code Extension** (Provides project configuration, flashing, and debugging seamlessly).
-3. **CMake** (v3.16+) and **Ninja** (Build system)
-4. **GNU Arm Embedded Toolchain** (`arm-none-eabi-gcc`)
+1. **STM32CubeIDE**
+2. **STM32CubeMX**
 
 ## Concurrency & Thread Safety
 Currently, the application runs entirely in a bare-metal, single-threaded context. The Modbus server execution is driven by polling `mbus_serial_server_poll()` in the main `while(1)` loop. 

@@ -35,7 +35,7 @@ static enum MbusStatusCode st_disconnect(void *userdata) {
 }
 static enum MbusStatusCode st_send(const uint8_t *data, uint16_t len, void *userdata) {
     UART_HandleTypeDef *huart = &huart3;
-    
+
     /* Non-blocking check for busy UART hardware */
     if (huart->gState != HAL_UART_STATE_READY) {
         return MbusErrSendFailed;
@@ -66,13 +66,13 @@ int rx_bytes = 0;
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     if (huart->Instance == huart3.Instance) {
         uint16_t next_head = (rx_head + 1) % MODBUS_RX_BUF_SIZE;
-        
+
         /* Push to buffer if not full */
         if (next_head != rx_tail) {
             rx_ring_buf[rx_head] = rx_byte_tmp;
             rx_head = next_head;
         }
-        
+
         /* Re-trigger receive for the next byte */
         HAL_UART_Receive_IT(huart, &rx_byte_tmp, 1);
     }
@@ -96,7 +96,7 @@ void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart) {
 
 static uint8_t st_is_connected(void *userdata) {
     UART_HandleTypeDef *huart = &huart3 ;
-    if (huart->gState == HAL_UART_STATE_READY) {  
+    if (huart->gState == HAL_UART_STATE_READY) {
         return 1; // Connected
     }
     return 0; // Disconnected
@@ -121,18 +121,18 @@ int modbus_init(void)
     /* Initialize the Modbus server model and handlers */
     mbus_server_model_init();
     struct MbusServerHandlers handlers = mbus_server_default_handlers(NULL);
-    
+
     /* Create a serial Modbus server with the default handlers */
     struct MbusServerConfig cfg = { .slave_address = 1u, .response_timeout_ms = 1000u };
-    g_server_id = mbus_serial_rtu_server_new(&tr, &handlers, &cfg);
-    if (g_server_id == MBUS_INVALID_SERVER_ID) {
-        // Handle error
-        return -1;
-    }
+//    g_server_id = mbus_serial_rtu_server_new(&tr, &handlers, &cfg);
+//    if (g_server_id == MBUS_INVALID_SERVER_ID) {
+//        // Handle error
+//        return -1;
+//    }
 
     /* Initialize the Nucleo User Button in standard GPIO polling mode */
     BSP_PB_Init(BUTTON_USER, BUTTON_MODE_GPIO);
-    
+
     /* Abort any background reception the BSP might have silently left pending */
     HAL_UART_AbortReceive(&huart3);
 
@@ -142,12 +142,12 @@ int modbus_init(void)
     }
 
     /* Connect the server (open transport) */
-    if (mbus_serial_server_connect(g_server_id) != MbusOk) {
-        // Handle error
-        mbus_serial_server_free(g_server_id);
-        g_server_id = MBUS_INVALID_SERVER_ID;
-        return -1;
-    }
+//    if (mbus_serial_server_connect(g_server_id) != MbusOk) {
+//        // Handle error
+//        mbus_serial_server_free(g_server_id);
+//        g_server_id = MBUS_INVALID_SERVER_ID;
+//        return -1;
+//    }
 
     return 0;
 }
@@ -169,8 +169,8 @@ void modbus_task(void)
     /* Get current tick count from HAL */
     uint32_t current_tick = HAL_GetTick();
 
-    /* 
-     * Update User Button state. 
+    /*
+     * Update User Button state.
      * BSP_PB_GetState returns 1 when pressed and 0 when released.
      * We push this state into the Modbus model so the Master can read it via Discrete Input 0x0000.
      */
@@ -218,7 +218,7 @@ MbusHookStatus app_on_write_led_red(void* ctx, uint16_t address, uint8_t value) 
 }
 
 MbusHookStatus app_on_write_led_yellow(void* ctx, uint16_t address, uint8_t value) {
-    if (value) {    
+    if (value) {
         BSP_LED_On(LED_YELLOW);
     } else {
         BSP_LED_Off(LED_YELLOW);
