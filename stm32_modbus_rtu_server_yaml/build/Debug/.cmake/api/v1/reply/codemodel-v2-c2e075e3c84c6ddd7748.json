@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ModbusServer",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ModbusServer_CM4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModbusServer_CM4-Debug-6bb43c124572ef1a407e.json",
+					"name" : "ModbusServer_CM4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModbusServer_CM7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModbusServer_CM7-Debug-d22e9b0d840df496a2e5.json",
+					"name" : "ModbusServer_CM7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug",
+		"source" : "/Volumes/Work/ModBus/stm32/ModbusServer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

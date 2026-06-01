@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM4"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM4.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CMakeFiles/ModbusServer_CM4-complete.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-build.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-configure.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-download.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-install.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-mkdir.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-patch.rule"
+		},
+		{
+			"file" : "/Volumes/Work/ModBus/stm32/ModbusServer/build/Debug/CM4/src/ModbusServer_CM4-stamp/ModbusServer_CM4-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ModbusServer_CM4"
+		],
+		"name" : "ModbusServer_CM4"
+	}
+}
