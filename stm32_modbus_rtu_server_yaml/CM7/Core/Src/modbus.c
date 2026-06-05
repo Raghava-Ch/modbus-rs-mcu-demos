@@ -124,11 +124,11 @@ int modbus_init(void)
 
     /* Create a serial Modbus server with the default handlers */
     struct MbusServerConfig cfg = { .slave_address = 1u, .response_timeout_ms = 1000u };
-//    g_server_id = mbus_serial_rtu_server_new(&tr, &handlers, &cfg);
-//    if (g_server_id == MBUS_INVALID_SERVER_ID) {
-//        // Handle error
-//        return -1;
-//    }
+    g_server_id = mbus_serial_rtu_server_new(&tr, &handlers, &cfg);
+    if (g_server_id == MBUS_INVALID_SERVER_ID) {
+        // Handle error
+        return -1;
+    }
 
     /* Initialize the Nucleo User Button in standard GPIO polling mode */
     BSP_PB_Init(BUTTON_USER, BUTTON_MODE_GPIO);
@@ -142,12 +142,12 @@ int modbus_init(void)
     }
 
     /* Connect the server (open transport) */
-//    if (mbus_serial_server_connect(g_server_id) != MbusOk) {
-//        // Handle error
-//        mbus_serial_server_free(g_server_id);
-//        g_server_id = MBUS_INVALID_SERVER_ID;
-//        return -1;
-//    }
+    if (mbus_serial_server_connect(g_server_id) != MbusOk) {
+        // Handle error
+        mbus_serial_server_free(g_server_id);
+        g_server_id = MBUS_INVALID_SERVER_ID;
+        return -1;
+    }
 
     return 0;
 }
