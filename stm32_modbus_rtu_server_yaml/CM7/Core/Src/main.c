@@ -153,7 +153,7 @@ Error_Handler();
   {
 
     /* USER CODE END WHILE */
-//	  modbus_task();
+	  modbus_task();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
